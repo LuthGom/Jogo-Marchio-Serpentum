@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Swamp;
+    src: url(Swamp\ Witch.ttf);
+}
+@font-face {
+    font-family: Satanica;
+    src: url(Satanyc\ Demoniac\ St.ttf);
+}
+body {
+    background: linear-gradient(#0C0D0F, #555851, #96BFAF);
+    margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family: Swamp;
+  font-size: 3em;
+  text-shadow: 10px 10px red, -10px -10px 3px red;
+}
+main {
+    display: flex; 
+    flex-direction: column;  
+}
+div .prefacio {
+    margin: 50px 200px 50px 200px;
+}
+.prefacio {
+    
+    color: white;
+    border: 2px dashed#b36f3c;
+
+}
+.escolha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7em;
+}
+.escolha figcaption {
+    border: 5px solid red;
+    border-style: outset;
+    padding: 1em;
+    color: #b36f3c;    
+}
+figcaption {
+    font-family: Satanica;
+    border: 1px solid red;
+    font-weight: bold;
+}
+.lorraineAoTelefone {
+    margin: 0.5em;
+    width: 15em;
+    height: 15em;
+    border: 5px solid white;
+    box-shadow: 10px 10px 5px black;
+}
+
+div p {
+    font-family: Satanica;
+    font-size: 1em;
+    word-spacing: 1em;
+    line-height: 2em;   
+    text-align: center;
+    border: 1px solid white;
+    margin: 0 30px 0 30px;
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+div a {
+    text-decoration: none;
+    color: white;
+ 
+
+}
+.judyWarren img, .janetHodgson img, .charlieMathitis img{
+    width: 20em;
+    margin: 1em;    
+    
+}
+.personagens:hover {
+    cursor: pointer;
+    border: 2px dotted black;
+    margin: 0;
+}
+footer {
+    text-align: center;
+}

@@ -14,13 +14,13 @@
   body {
     background: linear-gradient(#0C0D0F, #555851, #96BFAF);
     margin: 0;
-    height: 100vh;
 }
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 3em;
 }
 .fonte_imagem {
   font-family: Monster Party;
@@ -48,17 +48,22 @@ h1 {
   font-family: Swamp;
   font-size: 7em;
   text-shadow: 10px 10px red, -10px -10px 3px red;
-  margin: 1em 0 1em 0;
 }
 .botao {
-  background-image: url(botao_pg1.gif);
+  background-image: url(imagens/bg_botao_index.gif);
   background-size: 15em;
   border: 10px #EB9757;
   border-style: outset;
   padding: 50px;
-  font-size: 0.5em;
+  font-size: 1em;
   text-decoration: none;
   color: red;
+  
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .botao:active {
   border-style: inset;
@@ -68,5 +73,5 @@ footer p {
   padding: 0;
   display: flex;
   justify-content: center;
-  margin-top: 2em;
+  margin-top: 3em;
 }
