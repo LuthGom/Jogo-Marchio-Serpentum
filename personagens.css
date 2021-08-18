@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Heartless;
+    src: url(Heartless.ttf);
+}
+h1 {
+    font-family: Heartless;
+    font-size: 80px;
+}
