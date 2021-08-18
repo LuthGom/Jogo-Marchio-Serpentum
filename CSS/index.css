@@ -13,43 +13,60 @@
 
   body {
     background: linear-gradient(#0C0D0F, #555851, #96BFAF);
-    height: 100vh;
     margin: 0;
+    height: 100vh;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fonte_imagem {
+  font-family: Monster Party;
+  font-size: 5em;
+  margin: 0;
+  text-shadow: -2px -2px 1px whitesmoke;
+}
+.frase_inicial {
+  font-size: 1em;
+  font-family: Satanic;
+  margin: 0;
+  text-shadow: -10px -10px 1.5px red, 10px 10px 1.5px white;
+  font-weight: bolder;
+  
 }
 main {
-  
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
-.frase_inicial {
-  font-size: 1em;
-  font-family: Satanic;
-  margin: 0;
-  text-shadow: -10px -10px 3px red, 10px 10px 3px white;
-  font-weight: bold;
-  
-}
-.fonte_imagem {
-  font-family: Monster Party;
-  font-size: 5em;
-  margin: 0;
-  text-shadow: -2px -2px 1px red;
-}
 h1 {
   font-family: Swamp;
   font-size: 7em;
   text-shadow: 10px 10px red, -10px -10px 3px red;
+  margin: 1em 0 1em 0;
 }
 .botao {
   background-image: url(botao_pg1.gif);
   background-size: 15em;
-  padding: 60px;
+  border: 10px #EB9757;
+  border-style: outset;
+  padding: 50px;
   font-size: 0.5em;
   text-decoration: none;
-  color: yellow;
-  margin-top: 5em;
+  color: red;
+}
+.botao:active {
+  border-style: inset;
+}
+footer p {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
 }

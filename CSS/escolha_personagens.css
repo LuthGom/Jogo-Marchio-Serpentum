@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Swamp;
+    src: url(Swamp\ Witch.ttf);
+}
+@font-face {
+    font-family: Satanica;
+    src: url(Satanyc\ Demoniac\ St.ttf);
+}
+body {
+    background: linear-gradient(#0C0D0F, #555851, #96BFAF);
+    margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family: Swamp;
+  font-size: 7em;
+  text-shadow: 10px 10px red, -10px -10px 3px red;
+}
+p {
+    margin: 3em;
+
+}
+main {
+    display: flex; 
+    flex-direction: column;  
+}
+div p {
+    font-family: Satanica;
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.judyWarren img {
+    width: 20em;
+}
+.janetHodgson img {
+    width: 20em;
+}
+.charlieMathitis img {
+    width: 23em;
+}
