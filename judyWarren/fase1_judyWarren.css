@@ -20,28 +20,26 @@ h1 {
   text-shadow: 10px 10px red, -10px -10px 3px red;
   text-align: center;
 }
-main {
+figure {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 10px;
-    border: 2px solid white;
 }
-.janet {
-    display: flex;
-    flex-direction: column;
-    margin: 0.7em;
-    padding: 0;
+img {
+    width: 20em;
+    height: 20em;
+    margin: 0.5em;
 }
-figcaption {
+p:not(footer p) {
     text-align: center;
-    font-size: large;
+    font-size: 1em;
     font-family: Satanica;
-    padding-bottom: 15px;
     font-weight: bold;
+    margin: 0 3.5em 0 3.5em;
+    border: 2px solid white;
+    border-radius: 40px 0 40px 0;
 }
 button {
-    margin: 0.5em;
+   margin: 0.8em;
    padding: 10px;
    border: 2px dotted red;
    font-family: Satanica;
@@ -51,23 +49,8 @@ button {
    color: white;
    
 }
-a {
-    text-decoration: none;
-    color: white;
-}
-p {
-    line-height: 1.5em;
-    font-size: 17px;
-
-}
-img {
-    width: 20em;
-    height: 20em;
-}
-footer {
-    text-align: center;
-    margin: 0;
-}
 footer p {
     margin: 0;
+    padding: 0;
+    text-align: center;
 }

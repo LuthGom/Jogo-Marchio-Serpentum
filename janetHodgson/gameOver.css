@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Satanica;
+    src: url(../Satanyc\ Demoniac\ St.ttf);
+}
+@font-face {
+    font-family: Swamp;
+    src: url(../Swamp\ Witch.ttf);
+}
+body {
+    background: linear-gradient(#0C0D0F, #555851, #96BFAF);
+    margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+h1 {
+  font-family: Swamp;
+  font-size: 7em;
+  text-shadow: 10px 10px red, -10px -10px 3px red;
+  text-align: center;
+  margin: 0.3em;
+ 
+} 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+p:not(footer p) {
+    font-family: Satanica;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 1px red;
+    color: white;
+}
+img {
+    width: 15em;
+    height: 15em;
+}
+button {
+    padding: 13px;
+    border: 2px dotted red;
+    font-family: Satanica;
+    font-weight: bold;
+    font-size: 15px;    
+    background: linear-gradient(#0C0D0F, #555851, #96BFAF);
+    
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+footer p {
+    text-align: center;
+   
+}
