@@ -48,8 +48,9 @@ button {
     font-weight: bold;
     font-size: 15px;    
     background: linear-gradient(#0C0D0F, #555851, #96BFAF);
-    
-    
+}
+button:hover {
+    cursor: pointer;
 }
 a {
     text-decoration: none;

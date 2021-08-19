@@ -51,9 +51,15 @@ button {
    color: white;
    
 }
+button:hover {
+    cursor: pointer;
+}
 a {
     text-decoration: none;
     color: white;
+}
+a:hover {
+    cursor: pointer;
 }
 p {
     line-height: 1.5em;

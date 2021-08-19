@@ -1,14 +1,14 @@
 @font-face {
     font-family: Swamp;
-    src: url(Swamp\ Witch.ttf);
+    src: url(/fontes/Swamp\ Witch.ttf);
   }
   @font-face {
     font-family: Monster Party;
-    src: url(MONSP___.TTF);
+    src: url(fontes/MONSP___.TTF);
   }
   @font-face {
     font-family: Satanic;
-    src: url(Satanyc\ Demoniac\ St.ttf);
+    src: url(fontes/Satanyc\ Demoniac\ St.ttf);
   }
 
   body {

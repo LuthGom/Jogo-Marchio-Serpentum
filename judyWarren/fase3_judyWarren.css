@@ -49,6 +49,9 @@ button {
    color: white;
    
 }
+button:hover {
+    cursor: pointer;
+}
 footer p {
     margin: 0;
     padding: 0;
