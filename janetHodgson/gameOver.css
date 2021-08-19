@@ -48,8 +48,7 @@ button {
     font-weight: bold;
     font-size: 15px;    
     background: linear-gradient(#0C0D0F, #555851, #96BFAF);
-    
-    
+    margin: 0;
 }
 a {
     text-decoration: none;

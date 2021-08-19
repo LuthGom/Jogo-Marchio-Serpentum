@@ -47,6 +47,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: ;
 }
 button:hover {
     cursor: pointer;

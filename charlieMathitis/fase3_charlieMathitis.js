@@ -6,7 +6,7 @@ function redireciona(outraPagina) {
 function pagina(paginaSeguinte, certaResposta) {
 
     while (true) {
-        var respostaDoUsuário = prompt("1 - tenta entrar no carro e sair o mais rápido possível\n 2 - pega o cruxifixo que ganhou de Ed e aponta para o espírito, fazendo uma oração ")
+        var respostaDoUsuário = prompt("1 - ele começa a ler um salmo aleatório da bíblia\n 2 - ele aponta seu terço e usa o nome do demônio contra ele")
         if (respostaDoUsuário === '1' || respostaDoUsuário === '2') {
             if (respostaDoUsuário === certaResposta) {
                 redireciona(paginaSeguinte)

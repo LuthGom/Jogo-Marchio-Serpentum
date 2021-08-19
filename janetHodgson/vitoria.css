@@ -43,9 +43,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 40%;
 }
 button:hover {
     cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 footer p {
     text-align: center;
