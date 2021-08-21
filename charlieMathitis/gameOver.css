@@ -1,10 +1,10 @@
 @font-face {
     font-family: Satanica;
-    src: url(../Satanyc\ Demoniac\ St.ttf);
+    src: url(Satanyc\ Demoniac\ St.ttf);
 }
 @font-face {
     font-family: Swamp;
-    src: url(../Swamp\ Witch.ttf);
+    src: url(Swamp\ Witch.ttf);
 }
 body {
     background: linear-gradient(#0C0D0F, #555851, #96BFAF);
@@ -21,6 +21,7 @@ h1 {
   text-shadow: 10px 10px red, -10px -10px 3px red;
   text-align: center;
   margin: 0.3em;
+  letter-spacing: 5px;
  
 } 
 main {
@@ -34,8 +35,9 @@ p:not(footer p) {
     font-family: Satanica;
     font-weight: bold;
     font-size: 1.5em;
-    text-shadow: 5px 5px 1px red;
+    text-shadow: 5px 5px 5px red;
     color: white;
+    text-align: center;
 }
 img {
     width: 15em;
@@ -55,7 +57,28 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    color: red;
+}
 footer p {
     text-align: center;
    
+}
+/* Estilização Responsiva */
+@media 
+(max-width: 480px) {
+  body {
+    border: 3px solid white;
+  }
+  header {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 5em;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 30px 50px 30px 50px ;
+    word-spacing: 5px;
+  }
+  
 }

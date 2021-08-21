@@ -17,9 +17,10 @@ header {
 }
 h1 {
   font-family: Swamp;
-  font-size: 4em;
+  font-size: 5em;
   text-shadow: 10px 10px red, -10px -10px 3px red;
   text-align: center;
+  letter-spacing: 5px;
 }
 figure {
     display: flex;

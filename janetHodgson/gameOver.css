@@ -1,3 +1,4 @@
+/* Fontes Externas Utilizadas no Projeto */
 @font-face {
     font-family: Satanica;
     src: url(../Satanyc\ Demoniac\ St.ttf);
@@ -6,6 +7,7 @@
     font-family: Swamp;
     src: url(../Swamp\ Witch.ttf);
 }
+/* Estilização do Corpo Principal do Projeto */
 body {
     background: linear-gradient(#0C0D0F, #555851, #96BFAF);
     margin: 0;
@@ -21,6 +23,7 @@ h1 {
   text-shadow: 10px 10px red, -10px -10px 3px red;
   text-align: center;
   margin: 0.3em;
+  letter-spacing: 5px;
  
 } 
 main {
@@ -54,7 +57,95 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    color: red;
+}
 footer p {
     text-align: center;
    
+}
+/* Fontes Externas Utilizadas No Projeto */
+@font-face {
+    font-family: Satanica;
+    src: url(Satanyc\ Demoniac\ St.ttf);
+}
+@font-face {
+    font-family: Swamp;
+    src: url(Swamp\ Witch.ttf);
+}
+/* Estilização do Corpo Principal do Projeto */
+body {
+    background: linear-gradient(#0C0D0F, #555851, #96BFAF);
+    margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+h1 {
+  font-family: Swamp;
+  font-size: 7em;
+  text-shadow: 10px 10px red, -10px -10px 3px red;
+  text-align: center;
+  margin: 0.3em;
+  letter-spacing: 5px;
+ 
+} 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+p:not(footer p) {
+    font-family: Satanica;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 5px red;
+    color: white;
+    text-align: center;
+}
+img {
+    width: 15em;
+    height: 15em;
+}
+button {
+    padding: 13px;
+    border: 2px dotted red;
+    font-family: Satanica;
+    font-weight: bold;
+    font-size: 15px;    
+    background: linear-gradient(#0C0D0F, #555851, #96BFAF);
+}
+button:hover {
+    cursor: pointer;
+    color: red;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+footer p {
+    text-align: center;
+   
+}
+/* Estilização Responsiva */
+@media 
+(max-width: 480px) {
+  body {
+    border: 3px solid white;
+  }
+  header {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 5em;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 30px 50px 30px 50px ;
+    word-spacing: 5px;
+  }
+  
 }

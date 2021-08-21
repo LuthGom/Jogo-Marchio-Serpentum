@@ -1,3 +1,4 @@
+/* Fontes Externas Utilizadas no Projeto */
 @font-face {
     font-family: Swamp;
     src: url(Swamp\ Witch.ttf);
@@ -6,6 +7,7 @@
     font-family: Satanica;
     src: url(Satanyc\ Demoniac\ St.ttf);
 }
+/* Estilização do Corpo Principal do Projeto */
 body {
     background: linear-gradient(#0C0D0F, #555851, #96BFAF);
     margin: 0;
@@ -49,7 +51,6 @@ button {
    font-size: 15px;    
    background: linear-gradient(#0C0D0F, #555851, #96BFAF);
    color: white;
-   
 }
 a {
     text-decoration: none;
@@ -70,4 +71,49 @@ footer {
 }
 footer p {
     margin: 0;
+}
+/* Estilização Responsiva do Projeto */
+@media 
+(max-width: 480px) {
+  body {
+    border: 3px solid white;
+  }
+  header {
+    margin-top: 0;
+  }
+  main {
+      display: flex;
+      flex-direction: column;
+  }
+  .frase_inicial {
+    color: white;
+    text-shadow: 5px 5px 5px red, -5px -5px 5px black;
+    text-align: center;
+    margin: 10px;
+  }
+  h1 {
+    font-size: 5em;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 30px 50px 30px 50px ;
+    word-spacing: 5px;
+  }
+  div .prefacio {
+      margin: 30px;
+  }
+  section {
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .personagens {
+      border: 2px solid black;
+      margin-bottom: 30px;
+  }
+  .personagens p {
+      margin-bottom: 20px;
+  }
+  footer p {
+    margin-top: 5px;
+  }
 }

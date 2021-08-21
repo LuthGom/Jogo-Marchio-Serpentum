@@ -1,3 +1,6 @@
+/* Estilização para Desktop */
+
+/* Fontes Externas Utilizadas no Projeto */
 @font-face {
   font-family: Swamp;
   src: url(fontes/Swamp\ Witch.ttf);
@@ -11,6 +14,7 @@
   src: url(fontes/Satanyc\ Demoniac\ St.ttf);
 }
 
+/* Estilização do corpo Principal do Projeto*/
 body {
   background: linear-gradient(#0C0D0F, #555851, #96BFAF);
   margin: 0;
@@ -33,7 +37,7 @@ font-size: 1em;
 font-family: Satanic;
 margin: 0;
 text-shadow: -10px -10px 1.5px red, 10px 10px 1.5px white;
-font-weight: bolder;
+font-weight: bold;
 
 }
 main {
@@ -48,6 +52,7 @@ h1 {
 font-family: Swamp;
 font-size: 7em;
 text-shadow: 10px 10px red, -10px -10px 3px red;
+letter-spacing: 5px;
 }
 .botao {
 background-image: url(imagens/bg_botao_index.gif);
@@ -74,4 +79,31 @@ padding: 0;
 display: flex;
 justify-content: center;
 margin-top: 3em;
+}
+/* Estilização Responsiva */
+@media 
+(max-width: 480px) {
+  body {
+    border: 3px solid white;
+  }
+  header {
+    margin-top: 0;
+  }
+  .frase_inicial {
+    color: white;
+    text-shadow: 5px 5px 5px red, -5px -5px 5px black;
+    text-align: center;
+    margin: 10px;
+  }
+  h1 {
+    text-align: center;
+    margin: 15px 50px 15px 50px ;
+    font-size: 6em;
+  }
+  .botao {
+    padding: 30px;
+  }
+  footer p {
+    margin-top: 5px;
+  }
 }

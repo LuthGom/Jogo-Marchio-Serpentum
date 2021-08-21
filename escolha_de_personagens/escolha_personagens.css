@@ -1,3 +1,4 @@
+/* Fontes Externas Utilizadas no Projeto */
 @font-face {
     font-family: Swamp;
     src: url(Swamp\ Witch.ttf);
@@ -6,6 +7,8 @@
     font-family: Satanica;
     src: url(Satanyc\ Demoniac\ St.ttf);
 }
+/* Estiliza~
+ao do Corpo Principal do Projeto */
 body {
     background: linear-gradient(#0C0D0F, #555851, #96BFAF);
     margin: 0;
@@ -16,8 +19,9 @@ header {
 }
 h1 {
   font-family: Swamp;
-  font-size: 3em;
-  text-shadow: 10px 10px red, -10px -10px 3px red;
+  font-size: 5em;
+  text-shadow: 10px 10px red,-10px -10px 3px red;
+  letter-spacing: 5px;
 }
 main {
     display: flex; 
@@ -38,6 +42,7 @@ div .prefacio {
     justify-content: center;
     align-items: center;
     margin-bottom: 7em;
+    margin-bottom: 20px;
 }
 .escolha figcaption {
     border: 5px solid red;
@@ -49,6 +54,9 @@ figcaption {
     font-family: Satanica;
     border: 1px solid red;
     font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 5px;
 }
 .lorraineAoTelefone {
     margin: 0.5em;
@@ -71,23 +79,82 @@ section {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    margin: 0;
 }
-div a {
-    text-decoration: none;
-    color: white;
- 
-
+div .personagens {
+    padding: 0;
+    margin: 0;
+}
+.personagens:hover {
+    border: 2px dotted white;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white
 }
 .judyWarren img, .janetHodgson img, .charlieMathitis img{
     width: 20em;
     margin: 1em;    
-    
 }
-.personagens:hover {
+button {
+   margin: 0.5em;
+   padding: 10px;
+   border: 2px dotted red;
+   font-family: Satanica;
+   font-weight: bold;
+   font-size: 15px;    
+   background: linear-gradient(#0C0D0F, #555851, #96BFAF);
+   color: white;
+}
+button:hover {
     cursor: pointer;
-    border: 2px dotted black;
-    margin: 0;
+    color: red;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 footer {
     text-align: center;
+}
+/* Estilização Responsiva */
+@media 
+(max-width: 480px) {
+  body {
+    border: 3px solid white;
+  }
+  header {
+    margin-top: 0;
+  }
+  .frase_inicial {
+    color: white;
+    text-shadow: 5px 5px 5px red, -5px -5px 5px black;
+    text-align: center;
+    margin: 10px;
+  }
+  h1 {
+    font-size: 5em;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 30px 50px 30px 50px ;
+    word-spacing: 5px;
+  }
+  div .prefacio {
+      margin: 30px;
+  }
+  section {
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .personagens {
+      border: 2px solid black;
+      margin-bottom: 30px;
+  }
+  .personagens p {
+      margin-bottom: 20px;
+  }
+  footer p {
+    margin-top: 5px;
+  }
 }

@@ -1,7 +1,9 @@
+/* Fontes Externas Utilizadas no Projeto */
 @font-face {
     font-family: Norse;
     src: url(norsebold-webfont.woff);
 }
+/* Estilização do Corpo Principal do Projeto */
 body {
     background-image: url(../imagens/foto1_vitoria.jpg);
     background-repeat: no-repeat;
@@ -54,4 +56,36 @@ a {
 }
 footer p {
     text-align: center;
+}
+/* Estilização Responsiva */
+@media 
+(max-width: 480px) {
+  body {
+    border: 3px solid white;
+    background: none;
+  }
+  header {
+    margin-top: 50px;
+  }
+  main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    h1 {
+    font-size: 5em;
+    letter-spacing: 10px;
+    text-align: center;
+    word-spacing: 5px;
+    text-align: center;
+    margin: 0;
+  }
+  p {
+      text-align: center;
+  }
+  footer p {
+      margin-top: 60px;
+  }
+  
 }
